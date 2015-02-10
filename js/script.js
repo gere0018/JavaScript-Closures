@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function(){
             window.setTimeout(function() {
                 item.innerHTML = "I am listItem #" + i;
                 list.appendChild(item);
-            }, (i*1000));
+            }, (i*1000));//delay time in milliseconds.
         }
     })(i, item) );
     }
