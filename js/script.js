@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function(){
         return function(){
         k.innerHTML = j;
       }
-    }) (p, para));// We need to use "immediately invoked function expression" so we can capture the value of p and para at the time it is clicked.
+    }) (p, para));// We need to use "immediately invoked function expression" so we can capture the value of p and para at the time of looping so it shows when it is clicked.
 
     var mainDiv =document.getElementById("main");
     mainDiv.appendChild(para);
